@@ -1,5 +1,21 @@
 # Minimal Python Polymarket Trader
 
+This is a repo including minimal Python applications / tools for trading on [Polymarket](https://polymarket.com/).
+
+NOTICE!! Betting on polymarket has a financial risk! We take no responsibility in financial losses induced by these tools!
+
+
+### Prerequisites
+
+The Polymarket client uses variables from the .env file. The easiest way to get your .env file with the values needed, is copying the .env.example file:
+
+```bash
+# linux:
+cp .env.example .env
+
+#windows
+copy .env.example .env
+```
 
 
 Before using the code, please read the official Polymarket:
